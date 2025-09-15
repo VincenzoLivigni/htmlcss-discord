@@ -104,7 +104,7 @@ button {
 }
 
 .full-dark {
-    height: 1000px;
+    height: 1050px;
 }
 
 .big,
@@ -166,20 +166,75 @@ button {
 
 .footer-full {
     text-align: center;
+    margin: 2rem 0;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.5rem
 }
 
 .button-full {
-    background-color: #658fff;
-    color: #ffffff;
+    background-color: var(--dis-footer-text);
+    color: var(--dis-primary-color);
     margin-top: 2rem;
     padding: 0.8rem 2rem;
     font-size: 1rem;
+    line-height: 15px;
 }
 
+.footer-top {
+    padding: 30px 0;
+    border-bottom: 1px white solid;
+    gap: 1%;
+}
+
+.footer-top h2 {
+    font-size: 1.8rem;
+    color: var(--dis-footer-text);
+}
+
+.single-column {
+    width: 30%;
+}
+
+.social img {
+    width: 1.5rem;
+}
+
+.lingua {
+    margin: 1.5rem 0;
+    align-items: center;
+}
+
+.lingua img {
+    width: 8%;
+    margin-right: 0.5rem;
+}
+
+.multi-column {
+    width: 17.5%;
+}
+
+li:first-child {
+    color: var(--dis-footer-text)
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-bottom {
+    height: 100px;
+    padding-top: 20px;
+    justify-content: space-between;
+    color: var(--dis-dark-section)
+}
+
+.footer-bottom button {
+    background-color: var(--dis-footer-text);
+    color: var(--dis-primary-color);
+}
 
 /* header */
 header {
@@ -203,7 +258,7 @@ nav {
 
 .logo {
     background-image: url('../img/logo.svg');
-    height: 80px;
+    height: 30px;
     width: 110px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -219,5 +274,16 @@ a {
 /* main */
 section {
     padding: 5rem 0;
-    margin-bottom: 40px;
+}
+
+/* footer */
+footer {
+    background-color: var(--dis-b-text);
+    color: var(--dis-dark-section);
+}
+
+select {
+    background-color: var(--dis-b-text);
+    color: var(--dis-primary-color);
+    border: none;
 }

@@ -1,14 +1,74 @@
 /* generics */
 :root {
---dis-primary-color: #ffffff;
---dis-nav: #3161e0; 
---dis-dark-section: #f6f6f6;
---dis-b-text: #23272a;
---dis-footer-text: #8ea1e1;
+    --dis-primary-color: #ffffff;
+    --dis-nav: #3161e0;
+    --dis-dark-section: #f6f6f6;
+    --dis-b-text: #23272a;
+    --dis-footer-text: #8ea1e1;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* utils */
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+
+}
+
+
+
+
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/* header */
+header {
+    background-color: var(--dis-nav);
+    color: var(--dis-primary-color);
+}
+
+nav {
+    height: 80px;
+    background-color: var(--dis-nav);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo {
+    background-image: url('../img/logo.svg');
+    height: 80px;
+    width: 110px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a {
+    color: var(--dis-primary-color);
+    text-decoration: none;
 }

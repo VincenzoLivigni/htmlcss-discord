@@ -1,0 +1,14 @@
+/* generics */
+:root {
+--dis-primary-color: #ffffff;
+--dis-nav: #3161e0; 
+--dis-dark-section: #f6f6f6;
+--dis-b-text: #23272a;
+--dis-footer-text: #8ea1e1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

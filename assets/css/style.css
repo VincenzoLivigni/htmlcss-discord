@@ -23,7 +23,6 @@ h1 {
 }
 
 p {
-    text-align: center;
     line-height: 1.5rem;
     font-size: 1.1rem;
 }
@@ -37,6 +36,10 @@ p {
 .flex {
     display: flex;
 
+}
+
+.h100 {
+    height: 100%;
 }
 
 button {
@@ -62,7 +65,10 @@ button {
     flex-direction: column;
     justify-content: space-around;
     padding: 0 5rem;
+}
 
+.banner-content p {
+    text-align: center;
 }
 
 .banner-content button {
@@ -84,6 +90,94 @@ button {
 .button-dark {
     background-color: var(--dis-b-text);
     color: var(--dis-primary-color);
+}
+
+.light {
+    height: 600px;
+    background-color: var(--dis-primary-color);
+}
+
+.dark,
+.full-dark {
+    height: 600px;
+    background-color: #f6f6f6;
+}
+
+.full-dark {
+    height: 1000px;
+}
+
+.big,
+.big2,
+.big3 {
+    width: 66%;
+    background-image: url('../img/item1.svg');
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.big2 {
+    background-image: url('../img/item2.svg');
+    background-position: right;
+}
+
+.big3 {
+    background-image: url('../img/item3.svg');
+}
+
+.small {
+    width: 31%;
+    padding-top: 2rem;
+}
+
+.space-b {
+    justify-content: space-between;
+}
+
+
+.small h2,
+.full h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    color: var(--dis-b-text)
+}
+
+.small p,
+.full p {
+    line-height: 1.5rem;
+    color: var(--dis-b-text);
+}
+
+.full {
+    width: 100%;
+}
+
+.header-full {
+    text-align: center;
+}
+
+.main-full {
+    height: 75%;
+    background-image: url('../img/item4-big.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-full {
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.button-full {
+    background-color: #658fff;
+    color: #ffffff;
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
 }
 
 
@@ -119,4 +213,11 @@ nav {
 a {
     color: var(--dis-primary-color);
     text-decoration: none;
+}
+
+
+/* main */
+section {
+    padding: 5rem 0;
+    margin-bottom: 40px;
 }

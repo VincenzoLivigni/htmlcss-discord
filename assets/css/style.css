@@ -1,7 +1,7 @@
 /* generics */
 :root {
     --dis-primary-color: #ffffff;
-    --dis-nav: #3161e0;
+    --dis-nav: #255ee9;
     --dis-dark-section: #f6f6f6;
     --dis-b-text: #23272a;
     --dis-footer-text: #8ea1e1;
@@ -17,6 +17,17 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
 /* utils */
 .container {
     width: 1080px;
@@ -28,14 +39,51 @@ body {
 
 }
 
-
-
-
-
 button {
     padding: 0.5rem 1rem;
     border-radius: 20px;
     border: none;
+}
+
+
+.banner {
+    height: 400px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 5rem;
+
+}
+
+.banner-content button {
+    margin: 0.8em;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.banner-buttons {
+    text-align: center;
+}
+
+.button-light {
+    background-color: var(--dis-primary-color);
+    color: var(--dis-b-text);
+}
+
+.button-dark {
+    background-color: var(--dis-b-text);
+    color: var(--dis-primary-color);
 }
 
 

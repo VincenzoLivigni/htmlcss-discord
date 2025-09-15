@@ -201,6 +201,10 @@ h3 {
     width: 1.5rem;
 }
 
+.social a {
+    margin-right: 0.5rem
+}
+
 .lingua {
     margin: 1.5rem 0;
     align-items: center;
